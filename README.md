@@ -32,6 +32,7 @@
 
 ### Design Visual e Wireframes
 - [Figma](https://www.figma.com/) — Design colaborativo de interfaces.
+- [Canva](https://www.canva.com/) — Criação de layouts, apresentações e materiais gráficos.
 - [Whimsical](https://whimsical.com/) — Fluxogramas, wireframes e mapas mentais.
 - [Excalidraw](https://excalidraw.com/) — Fluxogramas para apresentações.
 - [Storyset](https://storyset.com/) — Ilustrações animadas para UI.
@@ -55,6 +56,7 @@
 
 - **CI/CD & IaC**:
   - [Pulumi](https://www.pulumi.com/) — Infraestrutura como código.
+  - [Terraform](https://www.terraform.io/) — IaC declarativa e amplamente utilizada.
 
 ---
 
@@ -149,4 +151,7 @@
 - [google-auth](https://google-auth.readthedocs.io/) — Autenticação e integração com APIs Google.
 - [requests](https://requests.readthedocs.io/) — Requisições HTTP fáceis com Python.
 - [cryptography](https://cryptography.io/) — Criptografia e segurança.
+
+
+
 
