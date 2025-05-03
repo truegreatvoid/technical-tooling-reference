@@ -21,7 +21,11 @@
 - [Docker](https://www.docker.com/) — Contêineres e orquestração.
 - [Pulumi](https://www.pulumi.com/) — IaC com linguagens modernas.
 
----
+## 2. DATABASES
+
+- [MySQL](https://www.mysql.com/) — Sistema de gerenciamento de banco de dados relacional amplamente usado em aplicações web, conhecido pela velocidade e confiabilidade.
+- [PostgreSQL](https://www.postgresql.org/) — Banco de dados relacional open-source avançado, com suporte a extensões, JSON, e operações complexas. (Ideal para Django).
+- [SQLite](https://www.sqlite.org/) — Banco de dados relacional leve, embutido e sem servidor, ideal para protótipos, testes ou aplicações locais.
 
 ## 2. Design, UI e Tipografia
 
@@ -37,16 +41,12 @@
 - [Excalidraw](https://excalidraw.com/) — Fluxogramas para apresentações.
 - [Storyset](https://storyset.com/) — Ilustrações animadas para UI.
 
----
-
 ## 3. Integrações e Comunicação
 
 ### WhatsApp
 - [Waha](https://waha.dev/) — Integração com WhatsApp Business.
 - [WhatsApp Business API](https://www.whatsapp.com/business/api) — API oficial.
 - [Baileys (GitHub)](https://github.com/WhiskeySockets/Baileys) — Biblioteca JS para conexão via Web WhatsApp.
-
----
 
 ## 4. DevOps e Infraestrutura
 
@@ -58,21 +58,15 @@
   - [Pulumi](https://www.pulumi.com/) — Infraestrutura como código.
   - [Terraform](https://www.terraform.io/) — IaC declarativa e amplamente utilizada.
 
----
-
 ## 5. Testes (Automatizados e Manuais)
 
 - [Robot Framework](https://robotframework.org/) — Framework de testes automatizados.
   - [User Guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html)
 
----
-
 ## 6. Visualização e Manipulação de SVG
 
 - [SVG Viewer](https://www.svgviewer.dev/) — Visualizador e editor SVG online.
 - [Heroicons](https://heroicons.com/outline) — Ícones SVG prontos para uso.
-
----
 
 ## 7. Modelagem e Diagramas
 
@@ -80,16 +74,12 @@
 - [Draw.io / diagrams.net](https://app.diagrams.net/) — Editor gratuito de diagramas.
 - [Creately](https://creately.com/) — Diagramas, mapas mentais e modelos visuais.
 
----
-
 ## 8. Documentação Técnica
 
 - [Docsify](https://docsify.js.org/#/) — Gerador de documentação estática com Markdown.
 - [JS Wiki](https://js.wiki/modules) — Wiki moderna baseada em Node.js.
 - [Readme.so](https://readme.so/pt/editor) — Editor de arquivos README.md.
 - [Dillinger](https://dillinger.io/) — Editor de Markdown online.
-
----
 
 ## 9. Ferramentas de Apoio
 
@@ -101,8 +91,6 @@
 - [CodePen](https://codepen.io/trending) — Exemplos de HTML, CSS, JS em tempo real.
 - [Creative Tim](https://www.creative-tim.com/) — Componentes e templates de UI.
 
----
-
 ## 10. Autenticação e Identidade
 
 - [Clerk](https://clerk.com/) — Autenticação com suporte a redes sociais e integração com Next.js.
@@ -110,48 +98,44 @@
 ## 11. Bibliotecas Úteis para Django
 
 ### Core e Extensões do Django
-- [Django](https://www.djangoproject.com/) — Framework web principal.
-- [django-extensions](https://github.com/django-extensions/django-extensions) — Comandos e extensões úteis.
-- [django-cors-headers](https://github.com/adamchainz/django-cors-headers) — Suporte a CORS.
-- [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar) — Debug visual no navegador.
-- [python-decouple](https://github.com/henriquebastos/python-decouple) — Gerenciamento de variáveis de ambiente.
+- Django — Framework web principal.
+- django-extensions — Comandos e extensões úteis.
+- django-cors-headers — Suporte a CORS.
+- django-debug-toolbar — Debug visual no navegador.
+- python-decouple — Gerenciamento de variáveis de ambiente.
 
 ### REST APIs e Autenticação
-- [djangorestframework](https://www.django-rest-framework.org/) — Framework REST para Django.
-- [djangorestframework-simplejwt](https://github.com/jazzband/djangorestframework-simplejwt) — Autenticação via JWT.
-- [drf-spectacular](https://drf-spectacular.readthedocs.io/) — Geração de documentação OpenAPI 3 para DRF.
-- [dj-rest-auth](https://github.com/iMerica/dj-rest-auth) — Endpoints REST de autenticação prontos.
-- [django-allauth](https://github.com/pennersr/django-allauth) — Autenticação com e-mail, social login e mais.
+- djangorestframework — Framework REST para Django.
+- djangorestframework-simplejwt — Autenticação via JWT.
+- drf-spectacular — Geração de documentação OpenAPI 3 para DRF.
+- dj-rest-auth — Endpoints REST de autenticação prontos.
+- django-allauth — Autenticação com e-mail, social login e mais.
 
 ### Armazenamento e Cache
-- [django-storages](https://django-storages.readthedocs.io/) — Armazenamento em nuvem (S3, etc.).
-- [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) — SDK da AWS para Python.
-- [django-redis](https://github.com/jazzband/django-redis) — Cache backend usando Redis.
+- django-storages — Armazenamento em nuvem (S3, etc.).
+- boto3 — SDK da AWS para Python.
+- django-redis — Cache backend usando Redis.
 
 ### Dados e Manipulação de Arquivos
-- [pandas](https://pandas.pydata.org/) — Análise e manipulação de dados.
-- [django-pandas](https://github.com/chrisdev/django-pandas) — Integração de querysets com pandas.
-- [PyMuPDF](https://pymupdf.readthedocs.io/) — Leitura e manipulação de PDFs.
-- [pdfplumber](https://github.com/jsvine/pdfplumber) — Extração de texto/tabular de PDFs.
-- [pillow](https://python-pillow.org/) — Manipulação de imagens.
-- [holidays](https://pypi.org/project/holidays/) — Datas de feriados nacionais e regionais.
+- pandas — Análise e manipulação de dados.
+- django-pandas — Integração de querysets com pandas.
+- PyMuPDF — Leitura e manipulação de PDFs.
+- pdfplumber — Extração de texto/tabular de PDFs.
+- pillow — Manipulação de imagens.
+- holidays — Datas de feriados nacionais e regionais.
 
 ### Testes e Desenvolvimento
-- [pytest](https://docs.pytest.org/) — Framework de testes.
-- [pytest-django](https://pytest-django.readthedocs.io/) — Integração pytest + Django.
-- [icecream](https://github.com/gruns/icecream) — Ferramenta de debug com prints.
-- [ipython](https://ipython.org/) — Shell interativo avançado.
+- pytest — Framework de testes.
+- pytest-django — Integração pytest + Django.
+- icecream — Ferramenta de debug com prints.
+- ipython — Shell interativo avançado.
 
 ### Banco de Dados e Deploy
-- [mysqlclient](https://pypi.org/project/mysqlclient/) — Driver MySQL para Django.
-- [gunicorn](https://gunicorn.org/) — WSGI HTTP Server para produção.
-- [gevent](https://www.gevent.org/) — Suporte a IO assíncrono com Gunicorn.
+- mysqlclient — Driver MySQL para Django.
+- gunicorn — WSGI HTTP Server para produção.
+- gevent — Suporte a IO assíncrono com Gunicorn.
 
 ### Integrações Externas
-- [google-auth](https://google-auth.readthedocs.io/) — Autenticação e integração com APIs Google.
-- [requests](https://requests.readthedocs.io/) — Requisições HTTP fáceis com Python.
-- [cryptography](https://cryptography.io/) — Criptografia e segurança.
-
-
-
-
+- google-auth — Autenticação e integração com APIs Google.
+- requests — Requisições HTTP fáceis com Python.
+- cryptography — Criptografia e segurança.
